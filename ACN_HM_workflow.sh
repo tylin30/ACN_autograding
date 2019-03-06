@@ -1,9 +1,9 @@
 cd $1
 
 # rename file to studentID.docx/.pdf
-rename 's/^hw\d{6}_([^_]*)_[^_]*_(\d{1,2})/$1_$2/' *.pdf
+rename 's/^hw\d{6}_([a-z].{8}|es_\d{5})_[^_]*_(\d{1,2})/$1_$2/' *.pdf
 
-#count lines, words, chars, filename, studemtID
+#count lines, words, chars, filename, studentID
 echo studemtID, pages, lines, words, chars, >> result.csv
 for file in *.pdf;
 do
