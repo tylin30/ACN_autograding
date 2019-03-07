@@ -13,9 +13,9 @@ Step1. Download ACN_autograding from this Github (https://github.com/tylin30/ACN
 
 Step2. open your terminal
 
-Step3. `sh ACN_autograding [Dir]`
+Step3. `sh ACN_HM_workflow.sh [Dir_path]`
 
-(defalt dir is current dir)
+(default Dir_path is your current dir)
 
 
 
