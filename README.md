@@ -9,7 +9,7 @@ Do some data cleaning (?)
 grade in very naive way by counting pages, lines, words, chars.
 
 ## How to use?
-Step1. Download ACN_autograding from this Github (https://github.com/tylin30/ACN_autograding)
+Step1. Download <b>ACN_HM_workflow.sh</b> from this Github (https://github.com/tylin30/ACN_autograding)
 
 Step2. open your terminal
 
