@@ -17,4 +17,6 @@ Step3. `sh ACN_HM_workflow.sh [Dir_path]`
 
 (default Dir_path is your current dir)
 
+Step4. docx folder contain .docx after convert to .pdf; old folder contain old version .pdf from the same student; pdf folder contain the final grading files
+
 
