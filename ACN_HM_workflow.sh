@@ -3,6 +3,9 @@ cd ${1-./}
 #conver .docx to .pdf
 unoconv *.docx 
 mkdir -p pdf
+mkdir -p old
+mkdir -p docx
+mv *.docx ./docx
 
 # rename file to studentID.pdf
 rename 's/^hw\d{6}_([a-z].{8}|es_\d{5})_[^_]*_(\d{1,2})/$1_$2/' *.pdf
@@ -28,7 +31,8 @@ do
 	if [ $filenumber -ge 2 ]; then
 		for ((i=1; i<$filenumber; i++));
 		do
-			rm echo $studentID"_"$i".pdf"
+			#rm echo $studentID"_"$i".pdf"
+			mv $studentID"_"$i".pdf" ./old
 			# echo $studentID"_"$i".pdf"
 		done
 
@@ -70,6 +74,5 @@ do
 done
 
 #move all .docx to docx folder
-mkdir -p docx
-mv *.docx ./docx
+
 
