@@ -18,10 +18,3 @@ Step3. `sh ACN_HM_workflow.sh [Dir_path]`
 (default Dir_path is your current dir)
 
 
-
-
-## TODO
-
-//TODO: docx to pdf 
-
-//TODO: dealing with .zip or .txt and other format
